@@ -1,0 +1,6 @@
+[submodule "libraries/volley"]
+	path = libraries/volley
+	url = https://android.googlesource.com/platform/frameworks/volley
+[submodule "libraries/viewpagerindicator"]
+	path = libraries/viewpagerindicator
+	url = https://github.com/JakeWharton/Android-ViewPagerIndicator.git

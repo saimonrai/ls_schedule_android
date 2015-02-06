@@ -1,0 +1,84 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- The navigation drawer -->
+
+    <LinearLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="start"
+        android:background="#fff3f3f3">
+
+        <ListView
+            android:id="@+id/left_drawer_list"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"/>
+
+        <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:padding="5dp"-->
+            <!--android:background="@drawable/bg_row">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:textSize="17sp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="@color/relative_day_text"-->
+                <!--android:text="@string/my_group"/>-->
+
+            <!--<Spinner-->
+                <!--android:id="@+id/groups_spinner"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#ddd" />-->
+
+        <!--<ListView-->
+            <!--android:id="@+id/left_drawer_list"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_gravity="start"-->
+            <!--android:choiceMode="singleChoice"/>-->
+
+        <!--<ToggleButton-->
+            <!--android:id="@+id/flashlight_toggle_btn"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="20dp"-->
+            <!--android:background="@drawable/bg_row"/>-->
+
+        <!--<SurfaceView-->
+            <!--android:id="@+id/camera_surface_view"-->
+            <!--android:layout_width="1px"-->
+            <!--android:layout_height="1px"/>-->
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.DrawerLayout>

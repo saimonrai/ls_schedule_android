@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Load Shedding Schedule</string>
+    <string name="action_about">About</string>
+    <string name="action_refresh">Refresh Schedule</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Navigation Items -->
+    <string-array name="nav_items">
+        <item>Schedule</item>
+        <item>Groups</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="retry">Retry</string>
+
+    <string-array name="group_categories">
+        <item>Groups in KTM</item>
+        <item>Groups outside KTM</item>
+    </string-array>
+
+    <string-array name="relative_days">
+        <item>TODAY</item>
+        <item>TOMORROW</item>
+    </string-array>
+
+    <string name="my_group">My Group:</string>
+
+    <string name="flashlight_error_msg">There is a problem using the flashlight.</string>
+
+    <!-- http://www.onlinehtmleditor.net/ -->
+    <!-- http://htmlentities.net/ -->
+    <string name="about_msg">
+        &lt;html&gt;
+        Load Shedding Schedule&lt;br /&gt;
+        Version: 1.1&lt;br /&gt;
+        2014 Poolsidelabs Inc.
+
+        &lt;p&gt;
+        &lt;b&gt;Disclaimer:&lt;/b&gt;&lt;br /&gt;
+        The load shedding schedule data is provided by Nepal Electricity Authority.
+        The developer does not guarantee the latest schedule available from NEA and is not
+        responsible for any impact caused as a result of the schedule provided in the application.
+        &lt;/p&gt;
+
+        &lt;p&gt;
+        &lt;b&gt;Licenses:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+        &lt;b&gt;Volley&lt;/b&gt;&lt;br /&gt;
+        Copyright (C) 2012 The Android Open Source Project&lt;br /&gt;
+        Licensed under the Apache License, Version 2.0
+
+        &lt;br /&gt;&lt;br /&gt;
+
+        &lt;b&gt;google-gson&lt;/b&gt;&lt;br /&gt;
+        Copyright (c) Google Inc. &lt;br /&gt;
+        Licensed under the Apache License, Version 2.0
+
+        &lt;br /&gt;&lt;br /&gt;
+
+        &lt;b&gt;joda&lt;/b&gt;&lt;br /&gt;
+        Joda.org. &lt;br /&gt;
+        Licensed under the Apache License, Version 2.0
+
+        &lt;br /&gt;&lt;br /&gt;
+
+        &lt;b&gt;PagerSlidingTabStrip&lt;/b&gt;&lt;br /&gt;
+        Copyright 2013 Andreas Stuetz &lt;br /&gt;
+        Licensed under the Apache License, Version 2.0
+
+        &lt;br /&gt;&lt;br /&gt;
+
+        &lt;b&gt;android-sqlite-asset-helper&lt;/b&gt;&lt;br /&gt;
+        Copyright (C) 2011 readyState Software Ltd. &lt;br /&gt;
+        Licensed under the Apache License, Version 2.0
+
+        &lt;/p&gt;
+
+                &lt;b&gt;The Apache License Version 2.0&lt;/b&gt;
+                &lt;br /&gt;
+                You may obtain a copy of the License at
+
+                &lt;a href=&quot;http://www.apache.org/licenses/LICENSE-2.0&quot;&gt;http://www.apache.org/licenses/LICENSE-2.0&lt;/a&gt;
+                &lt;br /&gt;
+                Unless required by applicable law or agreed to in writing, software
+                distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+                WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+                See the License for the specific language governing permissions and
+                limitations under the License.
+
+        &lt;/html&gt;
+    </string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tab_indicator">#FFC74B46</color>
+    <color name="substation_text">#FFC74B46</color>
+
+    <color name="weekday_text">#FFC74B46</color>
+    <color name="relative_day_text">#FF5161BC</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#111</color>
+
+</resources>

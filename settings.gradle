@@ -1,0 +1,2 @@
+include ':LSSchedule'
+include ':libraries:volley', ':libraries:viewpagerindicator'

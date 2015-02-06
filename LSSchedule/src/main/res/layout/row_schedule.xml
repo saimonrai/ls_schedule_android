@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/bg_row">
+
+    <!--http://stackoverflow.com/questions/16278159/why-linearlayouts-margin-is-being-ignored-if-used-as-listview-row-view-->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_row"
+                    android:padding="10dp">
+
+        <TextView
+            android:id="@+id/weekday_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/weekday_text"/>
+
+        <TextView
+            android:id="@+id/date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/weekday_tv"
+            android:includeFontPadding="false"
+            android:textSize="14sp"/>
+
+        <TableLayout
+            android:id="@+id/schedule_table_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/weekday_tv"
+            android:layout_alignRight="@id/date_tv"
+
+            android:layout_marginTop="2.5dp"
+            android:layout_marginLeft="45dp"
+            android:paddingBottom="2.5dp"
+
+            android:stretchColumns="3"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

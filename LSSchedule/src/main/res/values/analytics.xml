@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<resources>
+    <!--<string name="ga_trackingId">UA-48056438-1</string> &lt;!&ndash; Test &ndash;&gt;-->
+    <string name="ga_trackingId">UA-48056438-2</string>  <!-- Production -->
+
+    <!--Enable automatic activity tracking-->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!--Enable automatic exception tracking-->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <integer name="ga_dispatchPeriod">10800</integer>  <!-- every 3 hours (in seconds) -->
+
+    <bool name="ga_debug">false</bool>
+
+</resources>
